@@ -178,7 +178,7 @@ a{
 .message{
     height: 60%;
     width: 70%;
-    background-color: blue;
+    background-color: rgb(14, 123, 160);
     border-radius: 10px;
     display: flex;
 }
@@ -197,13 +197,58 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    color: #F9FAF8;
  }
 
  #right > button{
-    background-color: blue;
+    background-color: rgb(14, 123, 160);
     border-radius: 5px;
     height: 30%;
     width: 30%;
     border-color: #F9FAF8;
     color: #F9FAF8;
+ }
+
+ .centeral{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+ }
+
+ #title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+ }
+
+ #desricption
+ {
+    font-size: 18px;
+    color: #E5E7EB;
+
+ }
+
+ .but{
+    width: 100%;
+    height: 20%;
+    
+ }
+
+ #button{
+    margin-top: 3.5%;
+    height: 50%;
+    width :20%;
+    border-radius: 12px;
+    color: #E5E7EB;
+    background: rgb(14, 123, 160);
+ }
+
+ .left > img{
+    height: 50%;
+    width: 50%;
+
  }
